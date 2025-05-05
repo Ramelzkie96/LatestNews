@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../assets/News_Featured.png';
+import image from '../assets/News_featured.png';
 
 const NewsItem = ({ title, description, src, url }) => {
   return (
