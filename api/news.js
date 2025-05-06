@@ -8,7 +8,7 @@ export default async function handler(req, res) {
       params: {
         country: 'us',
         category,
-        apiKey: process.env.VITE_API_KEY,
+        apiKey: process.env.NEWS_API_KEY,
       },
       headers: {
         'User-Agent': 'Mozilla/5.0',
